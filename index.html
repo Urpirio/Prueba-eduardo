@@ -20,37 +20,37 @@
 
 </style>
 <body>
-    <header class="d-flex justify-content-between align-items-center border p-1">
+    <header class="d-flex justify-content-between position-sticky sticky-top bg-white shadow-sm align-items-center border p-1">
         <div class="w-10">
             <img src="/src/Logo.avif" alt="Logo">
         </div>
-        <nav class=" d-flex justify-content-center align-items-center">
-            <ul class="d-flex justify-content-center align-items-center gap-3 list-unstyled">
-                <li>Home</li>
-                <li>Series</li>
-                <li>Podcast</li>
-                <li>Blog</li>
-            </ul>
+        <nav class=" d-flex gap-3 justify-content-center align-items-center">
+            <!-- <ul class="d-flex justify-content-center align-items-center gap-3 list-unstyled"> -->
+                <span>Home</span>
+                <span>Series</span>
+                <span>Podcast</span>
+                <span>Blog</span>
+            <!-- </ul> -->
         </nav>
         <section class="d-flex gap-3">
-            <div class="  d-flex justify-content-center align-items-center border rounded-5 bg-dark p-1">
-                    <input class="rounded-start-5 border-0 bg-transparent " style="outline: none;" type="text" placeholder="Search">
-                    <span class="d-flex justify-content-center align-items-center rounded-end-4 text-white" style="height: 30px;width: 30px;"><i class='bx bx-search'></i></span>
+            <div class="  d-flex justify-content-center align-items-center border rounded-5  p-1">
+                    <input class="rounded-start-5 border-0  " style="outline: none;" type="text" placeholder="Search">
+                    <span class="d-flex justify-content-center align-items-center rounded-end-4" style="height: 30px;width: 30px;"><i class='bx bx-search'></i></span>
             </div>
             <div>
-                <button class="rounded-5 py-1 px-3 border-1 border-success bg-success shadow-sm">En vivo</button>
-                <button class="rounded-5 py-1 px-3 border-1 border-success bg-success shadow-sm">En apoya E+</button>
+                <button class="rounded-5 py-1 px-3 border-0 bg-success shadow-sm text-white">En vivo</button>
+                <button class="rounded-5 py-1 px-3 border-0 bg-success shadow-sm text-white">En apoya E+</button>
             </div>
         </section>
     </header>
     <main class="d-flex">
         <section class="w-50 border p-5">
-           <article class="border w-20 p-3 ">
+           <article class="d-flex flex-column gap-3 border w-20 p-3 ">
             <div>
                 <h3>Hombre de verdad</h3>
             </div>
-            <div>
-                <img style="height: 200px; width: 200px; object-fit: cover;" src="src/image.png" alt="">
+            <div class="rounded-5">
+                <img class="rounded-5" style="height: 300px; width: 100%; object-fit: cover;" src="src/image.png" alt="">
             </div>
             <div class="flex flex-column border p-3 rounded-5">
                <div class="d-flex gap-3">
